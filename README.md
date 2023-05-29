@@ -6,12 +6,12 @@ City of Houston Fee Schedule Page: [https://cohweb.houstontx.gov/FIN_FeeSchedule
 ## Installation
 To run the progam, you will need to have Python 3.10 installed and Scrapy 2.9. Once you have Python installed, you can install Scrapy using the following command:
 
-pip install Scrapy
+`pip install Scrapy`
 
 ## Usage
 To use the City Fees program, you will need to navigate to the city_fees directory in your terminal and use the following command:
 
-'scrapy crawl feespider'
+`scrapy crawl feespider`
 
 The Feespider will then extract the following information from the fee schedule page:
 
@@ -25,7 +25,7 @@ The extracted information will be saved in a JSON file. The JSON file will be na
 
 ## Example
 Here is an example of the output of the program:
-'''
+```
 {
 "fees": [
 {
@@ -51,7 +51,7 @@ Here is an example of the output of the program:
 }
 ]
 }
-'''
+```
 ## Contributing
 This is an open source project and contributions are welcome. If you would like to contribute, please fork the project on GitHub and submit a pull request.
 
