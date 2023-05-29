@@ -11,7 +11,7 @@ class FeespiderSpider(scrapy.Spider):
 
     def parse(self, response):
 
-        rows = response.css('table.soft tr.d0, table.soft tr.d1') # Need to update code to bring in rows with a d1 class
+        rows = response.css('table.soft tr.d0, table.soft tr.d1')
         
         for row in rows:
             fee_item = CityFeesItem()
