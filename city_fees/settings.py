@@ -12,6 +12,9 @@ BOT_NAME = "city_fees"
 SPIDER_MODULES = ["city_fees.spiders"]
 NEWSPIDER_MODULE = "city_fees.spiders"
 
+FEEDS = {
+    'city_fees.json': {'format': 'json'},
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "city_fees (+http://www.yourdomain.com)"
